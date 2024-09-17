@@ -17,7 +17,7 @@ function Tick(){
     game.key.update()
     game.display.draw()
 
-    if(game.key.wasKeyJustPressed("KeyW")){
+    if(game.key.wasKeyJustPressed("KeyW") || true){
         game.vars.title = false
         game.vars.score = 0
     }
